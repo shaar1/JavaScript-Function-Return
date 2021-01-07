@@ -176,7 +176,7 @@ var ageCalc = myAgeEnDays();
 
 document.getElementById("test").innerHTML = "Your Age In Days = " + ageCalc;
 */
-
+/*
 function myAgeEnDays() {
 
     "use strict"
@@ -190,3 +190,53 @@ function myAgeEnDays() {
 var ageCalc = myAgeEnDays();
 
 document.getElementById("test").innerHTML = "Your Age In Days = " + ageCalc + " days";
+*/
+/*
+function myAgeInDays() {
+
+    "use strict"
+
+    var myAge = 30;
+
+    return myAge * 365;
+
+}
+
+
+document.getElementById("test").innerHTML =
+
+    "Your Age In Days = " + myAgeInDays() + " days";
+    */
+
+/*
+   function myAgeInDays() {
+
+    "use strict"
+
+    var myAge = 30;
+
+    return myAge * 365;
+}
+var daysClac = myAgeInDays();
+
+
+document.getElementById("test").innerHTML =
+
+    "Your Age In Days = " + daysClac + " days";
+    */
+
+
+function myAgeInHours() {
+
+    "use strict"
+
+    var myAge = 30;
+
+    return myAge * 365 * 24;
+}
+var hoursClac = myAgeInHours();
+
+
+document.getElementById("test").innerHTML =
+
+    "Your Age In Days = " + hoursClac + " Hours";
